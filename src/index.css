@@ -7,6 +7,30 @@
   background-color: #169a9c;
 }
 
+@media only screen and (max-width:600px) {
+  
+  
+.container{
+  width:100%;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: #169a9c;
+}
+
+  .weather{
+
+  width:min-content;
+  padding: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 50px auto;
+  background: linear-gradient(130deg , rgb(163, 4, 121),rgb(5,5,199));
+  }
+}
+
+
 .weather{
   width: 380px;
   padding: 30px;
